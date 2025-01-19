@@ -54,7 +54,7 @@ bash <(curl -fsSL https://www.naturl.link/linuxinstall)
 ##Method 2
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/thepinak503/linux-apps.git install
+   git clone https://github.com/thepinak503/linux-apps.git install && cd install
    ```
 
 2. Make the script executable:
