@@ -45,6 +45,13 @@ The installation script detects the Linux distribution you are using and install
 
 ## Usage
 
+
+##Method 1
+Use this command directly to the terminal
+```bash
+bash <(curl -fsSL https://www.naturl.link/linuxinstall)
+```
+##Method 2
 1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/thepinak503/linux-apps.git install
