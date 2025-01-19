@@ -52,21 +52,9 @@ Use this command directly to the terminal
 bash <(curl -fsSL https://www.naturl.link/linuxinstall)
 ```
 ##Method 2
-1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/thepinak503/linux-apps.git install && cd install
+   git clone https://github.com/thepinak503/linux-apps.git install && cd install && chmod +x install.sh && ./install.sh
    ```
-
-2. Make the script executable:
-   ```bash
-   chmod +x install_apps.sh
-   ```
-
-3. Run the script:
-   ```bash
-   ./install_apps.sh
-   ```
-
 ## Conclusion
 
 This script simplifies the process of setting up a Linux environment by automating the installation of essential applications. Feel free to modify the list of applications in the script to suit your needs.
