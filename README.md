@@ -150,5 +150,3 @@ This script simplifies the process of setting up a Linux environment by automati
 ## License
 
 This project is licensed under the GNU GPL License - see the [LICENSE](LICENSE) file for details.
-```
-
