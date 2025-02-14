@@ -13,7 +13,7 @@ install_pacman() {
         okular \
         libreoffice \
         onlyoffice \
-        thunderbird \
+        thunderbird \S
         audacity \
         krunner \
         flatseal \
