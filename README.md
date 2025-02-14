@@ -10,47 +10,139 @@ The installation script detects the Linux distribution you are using and install
 
 ## List of Applications
 
-### Common Applications
-- **GIMP**: Image manipulation program.
-- **VLC**: Media player.
-- **MPV**: Media player.
-- **LibreOffice**: Office suite.
-- **Thunderbird**: Email client.
-- **Audacity**: Audio editing software.
-- **Darktable**: Photography workflow application.
-- **Kdenlive**: Video editing software.
-- **HandBrake**: Video transcoder.
-- **Calibre**: E-book management software.
-- **Wireshark**: Network protocol analyzer.
-- **BleachBit**: System cleaner.
+### Using pacman (Arch-based)
+- gimp
+- vlc
+- mpv
+- bottles
+- lutris
+- pinta
+- okular
+- libreoffice
+- onlyoffice
+- thunderbird
+- audacity
+- krunner
+- flatseal
+- virt-manager
+- darktable
+- tlp-ui
+- apostrophe
+- kdenlive
+- handbrake
+- calibre
+- dolphin
+- kate
+- easy-effects
+- wireshark
+- piper
+- lsd
 
-### Additional Applications
-- **Bottles**: Windows application manager.
-- **Lutris**: Gaming platform for Linux.
-- **Pinta**: Simple drawing/editing program.
-- **Okular**: Document viewer.
-- **Flatseal**: Flatpak permissions manager.
-- **Virt-Manager**: Virtual machine manager.
-- **TLP UI**: Power management tool.
-- **Easy Effects**: Audio effects application.
-- **Kate**: Text editor.
-- **Heroic Games Launcher**: Game launcher for Epic Games.
-- **Timeshift**: System restore tool.
-- **Waydroid**: Android in a container.
-- **Onion Share**: Secure file sharing tool.
+### Using yay (AUR for Arch-based)
+- heroic-games-launcher
+- metadata-cleaner
+- localsend
+- kdeconnect
+- ferdi
+- celeste
+- timeshift
+- bleachbit
+- kommiku
+- switcheroo
+- hypnotoix
+- spectacle
+- memorise
+- alpaca
+- upscayl
+- fancontrol
+- greenwithenvy
+- czkawka
+- losslesscut
+- textpieces
+- peek
+- waydroid
+- onion-share
+- mousai
+- audio-sharing
+- identity
+- stirlingpdf
+- bat
+- ananicy-cpp
+- systemd-oomd
+- gamesscope
+- gamemode
+- pinokio
+- micro
+
+### Using apt (Debian-based)
+- gimp
+- vlc
+- mpv
+- libreoffice
+- thunderbird
+- audacity
+- darktable
+- kdenlive
+- handbrake
+- calibre
+- wireshark
+- piper
+- bleachbit
+- timeshift
+- *(and others...)*
+
+### Using dnf (Fedora-based)
+- gimp
+- vlc
+- mpv
+- libreoffice
+- thunderbird
+- audacity
+- darktable
+- kdenlive
+- handbrake
+- calibre
+- wireshark
+- piper
+- bleachbit
+- timeshift
+- *(and others...)*
+
+### Using nix (NixOS)
+- gimp
+- vlc
+- mpv
+- libreoffice
+- thunderbird
+- audacity
+- darktable
+- kdenlive
+- handbrake
+- calibre
+- wireshark
+- piper
+- bleachbit
+- timeshift
+- *(and others...)*
 
 ## Usage
 
+### Method 1
 
-##Method 1
-Use this command directly to the terminal
+Use the following command directly in your terminal:
+
 ```bash
 bash <(curl -fsSL https://www.naturl.link/linuxinstall)
 ```
-##Method 2
-   ```bash
-   git clone https://github.com/thepinak503/linux-apps.git install && cd install && chmod +x install.sh && ./install.sh
-   ```
+
+### Method 2
+
+Clone the repository and run the installation script:
+
+```bash
+git clone https://github.com/thepinak503/linux-apps.git install && cd install && chmod +x install.sh && ./install.sh
+```
+
 ## Conclusion
 
 This script simplifies the process of setting up a Linux environment by automating the installation of essential applications. Feel free to modify the list of applications in the script to suit your needs.
@@ -58,3 +150,5 @@ This script simplifies the process of setting up a Linux environment by automati
 ## License
 
 This project is licensed under the GNU GPL License - see the [LICENSE](LICENSE) file for details.
+```
+
