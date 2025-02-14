@@ -29,17 +29,13 @@ The installation script detects the Linux distribution you are using and install
 - **Lutris**: Gaming platform for Linux.
 - **Pinta**: Simple drawing/editing program.
 - **Okular**: Document viewer.
-- **OnlyOffice**: Office suite.
 - **Flatseal**: Flatpak permissions manager.
 - **Virt-Manager**: Virtual machine manager.
 - **TLP UI**: Power management tool.
 - **Easy Effects**: Audio effects application.
-- **Dolphin**: File manager.
 - **Kate**: Text editor.
 - **Heroic Games Launcher**: Game launcher for Epic Games.
 - **Timeshift**: System restore tool.
-- **Spectacle**: Screenshot tool.
-- **Peek**: Screen recording tool.
 - **Waydroid**: Android in a container.
 - **Onion Share**: Secure file sharing tool.
 
